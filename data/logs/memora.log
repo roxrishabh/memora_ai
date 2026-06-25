@@ -1,0 +1,18 @@
+2026-06-26 01:10:08 | INFO | __main__ | Starting Memora AI
+2026-06-26 01:10:08 | INFO | __main__ | Project root: D:\memora-ai
+2026-06-26 01:10:08 | INFO | __main__ | Database: D:\memora-ai\data\index\metadata.db
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\README.md
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\agents\__init__.py
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\app\logging_config.py
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\app\main.py
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\app\settings.py
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\app\__init__.py
+2026-06-26 01:16:30 | INFO | __main__ | D:\memora-ai\docs\architecture.md
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\ingestion\metadata.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\ingestion\scanner.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\ingestion\__init__.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\loaders\__init__.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\retrieval\__init__.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\tools\__init__.py
+2026-06-26 01:16:31 | INFO | __main__ | D:\memora-ai\vectorstore\__init__.py
+2026-06-26 01:16:31 | INFO | __main__ | Found 14 supported files.
