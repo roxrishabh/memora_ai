@@ -12,6 +12,21 @@ An Agentic Personal Knowledge System that indexes your local files and allows na
 - Code Search
 - Semantic Retrieval
 
-## Architecture
+## ✅ Features
 
-Coming Soon...
+- Recursive filesystem scanner
+- Incremental indexing
+- SQLite metadata database
+- SHA-256 change detection
+- File type detection
+- Programming language detection
+- Python AST analysis
+- Repository pattern
+- Modular analyzer pipeline
+
+### Next Milestone
+- Document Analyzer (PDF, DOCX, PPTX, Markdown)
+- Chunking Engine
+- Embedding Generation
+- Hybrid Retrieval
+- LangGraph Agent
