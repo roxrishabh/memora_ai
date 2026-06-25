@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from ingestion.core.document import DocumentMetadata
 
 
 @dataclass(slots=True)
@@ -28,3 +29,4 @@ class FileMetadata:
 
     # Generic
     tags: list[str] = field(default_factory=list)
+    document: DocumentMetadata | None = None

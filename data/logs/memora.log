@@ -96,3 +96,74 @@
 2026-06-26 02:50:45 | INFO | ingestion.ingestion.indexer | Files Indexed : 0
 2026-06-26 02:50:45 | INFO | ingestion.ingestion.indexer | Files Skipped : 31
 2026-06-26 02:50:45 | INFO | ingestion.ingestion.indexer | ==================================================
+2026-06-26 03:15:27 | INFO | ingestion.indexer | Starting indexing: D:\memora-ai
+2026-06-26 03:15:56 | INFO | ingestion.indexer | Starting indexing: D:\memora-ai
+2026-06-26 03:17:07 | INFO | ingestion.indexer | Starting indexing: D:\memora-ai
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: README.md
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): README.md
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): logging_config.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: main.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: main.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): settings.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): connection.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): migrations.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): models.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (same hash): repository.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): architecture.md
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: indexer.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: indexer.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: scanner.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: scanner.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (same hash): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: base.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: base.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: basic.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: basic.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: document.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: document.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: FileTypeAnalyzer.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: FileTypeAnalyzer.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: hash.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: hash.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: language.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: language.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: pipeline.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: pipeline.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: python.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: python.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: document.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: document.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: models.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: models.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: base.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: base.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: docx.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: docx.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: markdown.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: markdown.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: pdf.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: pdf.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: pptx.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: pptx.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: text.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: text.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): test_db.py
+2026-06-26 03:17:08 | INFO | ingestion.analyzers.python | Analyzed Python file: test_hash_analyzer.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexed: test_hash_analyzer.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Skipped (unchanged): __init__.py
+2026-06-26 03:17:08 | INFO | ingestion.indexer | ==================================================
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Indexing Complete
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Files Scanned : 40
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Files Indexed : 23
+2026-06-26 03:17:08 | INFO | ingestion.indexer | Files Skipped : 17
+2026-06-26 03:17:08 | INFO | ingestion.indexer | ==================================================

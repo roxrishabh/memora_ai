@@ -1,7 +1,7 @@
 from dataclasses import replace
 import hashlib
 
-from ingestion.ingestion.analyzers.base import Analyzer
+from ingestion.analyzers.base import Analyzer
 from ingestion.core.models import FileMetadata
 
 

@@ -4,9 +4,9 @@ import logging
 from pathlib import Path
 
 from database.repository import FileRepository
-from ingestion.ingestion.analyzers.hash import HashAnalyzer
-from ingestion.ingestion.analyzers.pipeline import AnalysisPipeline
-from ingestion.ingestion.scanner import scan_directory
+from ingestion.analyzers.hash import HashAnalyzer
+from ingestion.analyzers.pipeline import AnalysisPipeline
+from ingestion.scanner import scan_directory
 
 logger = logging.getLogger(__name__)
 

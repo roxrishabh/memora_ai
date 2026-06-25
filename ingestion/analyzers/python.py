@@ -11,7 +11,7 @@ import ast
 import logging
 from dataclasses import replace
 
-from ingestion.ingestion.analyzers.base import Analyzer
+from ingestion.analyzers.base import Analyzer
 from ingestion.core.models import FileMetadata
 
 logger = logging.getLogger(__name__)

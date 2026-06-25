@@ -5,14 +5,15 @@ from app.logging_config import setup_logging
 from database.migrations import initialize_database
 from database.repository import FileRepository
 
-from ingestion.ingestion.analyzers.basic import BasicAnalyzer
-from ingestion.ingestion.analyzers.hash import HashAnalyzer
-from ingestion.ingestion.analyzers.FileTypeAnalyzer import FileTypeAnalyzer
-from ingestion.ingestion.analyzers.language import LanguageAnalyzer
-from ingestion.ingestion.analyzers.pipeline import AnalysisPipeline
-from ingestion.ingestion.analyzers.python import PythonAnalyzer
+from ingestion.analyzers.basic import BasicAnalyzer
+from ingestion.analyzers.document import DocumentAnalyzer
+from ingestion.analyzers.hash import HashAnalyzer
+from ingestion.analyzers.FileTypeAnalyzer import FileTypeAnalyzer
+from ingestion.analyzers.language import LanguageAnalyzer
+from ingestion.analyzers.pipeline import AnalysisPipeline
+from ingestion.analyzers.python import PythonAnalyzer
 
-from ingestion.ingestion.indexer import Indexer
+from ingestion.indexer import Indexer
 
 
 def main():
@@ -27,6 +28,7 @@ def main():
         FileTypeAnalyzer(),
         LanguageAnalyzer(),
         PythonAnalyzer(),
+        DocumentAnalyzer(),
     ]
     )
 
