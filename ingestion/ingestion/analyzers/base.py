@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from ingestion.models import FileMetadata
+from ingestion.core.models import FileMetadata
 
 
 class Analyzer(ABC):

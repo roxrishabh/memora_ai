@@ -1,7 +1,7 @@
 import mimetypes
 
-from ingestion.analyzers.base import Analyzer
-from ingestion.models import FileMetadata
+from ingestion.ingestion.analyzers.base import Analyzer
+from ingestion.core.models import FileMetadata
 
 
 class BasicAnalyzer(Analyzer):

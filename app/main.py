@@ -1,25 +1,44 @@
 from pathlib import Path
 
-from ingestion.analyzers.basic import BasicAnalyzer
-from ingestion.analyzers.hash import HashAnalyzer
-from ingestion.analyzers.pipeline import AnalysisPipeline
-from ingestion.scanner import scan_directory
+from app.logging_config import setup_logging
+
+from database.migrations import initialize_database
+from database.repository import FileRepository
+
+from ingestion.ingestion.analyzers.basic import BasicAnalyzer
+from ingestion.ingestion.analyzers.hash import HashAnalyzer
+from ingestion.ingestion.analyzers.FileTypeAnalyzer import FileTypeAnalyzer
+from ingestion.ingestion.analyzers.language import LanguageAnalyzer
+from ingestion.ingestion.analyzers.pipeline import AnalysisPipeline
+from ingestion.ingestion.analyzers.python import PythonAnalyzer
+
+from ingestion.ingestion.indexer import Indexer
 
 
-pipeline = AnalysisPipeline(
-    analyzers=[
+def main():
+
+    setup_logging()
+
+    initialize_database()
+
+    pipeline = AnalysisPipeline(
+    [
         BasicAnalyzer(),
-        HashAnalyzer(),
+        FileTypeAnalyzer(),
+        LanguageAnalyzer(),
+        PythonAnalyzer(),
     ]
-)
-
-
-for metadata in scan_directory(Path.cwd()):
-
-    metadata = pipeline.run(metadata)
-
-    print(
-        metadata.filename,
-        metadata.mime_type,
-        metadata.sha256[:12],
     )
+
+    repository = FileRepository()
+
+    indexer = Indexer(
+        pipeline=pipeline,
+        repository=repository,
+    )
+
+    indexer.index(Path.cwd())
+
+
+if __name__ == "__main__":
+    main()

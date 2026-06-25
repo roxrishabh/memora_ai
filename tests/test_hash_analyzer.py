@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from ingestion.analyzers.hash import HashAnalyzer
-from ingestion.models import FileMetadata
+from ingestion.ingestion.analyzers.hash import HashAnalyzer
+from ingestion.core.models import FileMetadata
 
 from datetime import datetime
 

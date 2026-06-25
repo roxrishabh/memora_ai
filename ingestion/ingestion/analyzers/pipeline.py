@@ -1,5 +1,5 @@
-from ingestion.models import FileMetadata
-from ingestion.analyzers.base import Analyzer
+from ingestion.core.models import FileMetadata
+from ingestion.ingestion.analyzers.base import Analyzer
 
 
 class AnalysisPipeline:

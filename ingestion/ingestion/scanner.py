@@ -3,7 +3,7 @@ from datetime import datetime
 from pathlib import Path
 
 from app.settings import settings
-from ingestion.models import FileMetadata
+from ingestion.core.models import FileMetadata
 
 
 def scan_directory(root: Path) -> Generator[FileMetadata, None, None]:
